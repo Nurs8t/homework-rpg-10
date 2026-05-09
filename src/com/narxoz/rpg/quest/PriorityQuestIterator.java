@@ -3,9 +3,6 @@ package com.narxoz.rpg.quest;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Traverses only quests whose priority is at least the requested threshold.
- */
 public class PriorityQuestIterator implements QuestIterator {
 
     private final List<Quest> snapshot;

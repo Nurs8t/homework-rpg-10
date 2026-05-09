@@ -2,9 +2,7 @@ package com.narxoz.rpg.guild;
 
 import java.util.List;
 
-/**
- * Base class for all guild officers that communicate through a mediator.
- */
+
 public abstract class GuildMember {
 
     private final String name;

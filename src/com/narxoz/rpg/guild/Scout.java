@@ -1,8 +1,5 @@
 package com.narxoz.rpg.guild;
 
-/**
- * Guild officer responsible for route reports and reconnaissance.
- */
 public class Scout extends GuildMember {
 
     public Scout(String name, GuildMediator mediator) {

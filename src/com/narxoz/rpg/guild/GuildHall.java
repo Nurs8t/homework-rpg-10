@@ -5,9 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Topic-based mediator for the Adventurers' Guild war council.
- */
+
 public class GuildHall implements GuildMediator {
 
     private final Map<String, List<GuildMember>> membersByTopic = new HashMap<>();

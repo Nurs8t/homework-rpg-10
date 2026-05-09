@@ -1,8 +1,5 @@
 package com.narxoz.rpg.guild;
 
-/**
- * Guild officer responsible for gear, supplies, and rewards.
- */
 public class Quartermaster extends GuildMember {
 
     public Quartermaster(String name, GuildMediator mediator) {

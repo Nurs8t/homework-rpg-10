@@ -1,8 +1,5 @@
 package com.narxoz.rpg.guild;
 
-/**
- * Guild officer responsible for orders and mission coordination.
- */
 public class Captain extends GuildMember {
 
     public Captain(String name, GuildMediator mediator) {
