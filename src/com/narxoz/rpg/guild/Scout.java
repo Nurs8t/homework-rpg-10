@@ -10,12 +10,12 @@ public class Scout extends GuildMember {
     }
 
     public void reportRoute(String topic, String payload) {
-        // TODO: send a scouting message through the mediator.
         getMediator().dispatch(topic, this, payload);
     }
 
     @Override
     public void receive(String topic, GuildMember from, String payload) {
-        // TODO: react to a guild-hall message without calling another colleague directly.
+        System.out.printf("  [Scout   %-12s] received [%s] from %-14s: %s%n",
+                getName(), topic, from.getName(), payload);
     }
 }
